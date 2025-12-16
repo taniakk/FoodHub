@@ -29,16 +29,17 @@ function About(){
                    <p className="text-gray-600 text-[17px] px-6 py-6"> Packed with nutrient-rich ingredients, our salads are designed to fortify your
                      immune system and promote overall well-being.</p>
                      <div className="lg:h-[20vh] flex flex-col lg:flex-row items-center justify-evenly gap-20 lg:gap-0">
+                        
                         <div className="lg:h-20  w-[200px] lg:w-[120px] ">
-                            <img src="" alt="" srcset="/aboutimgs/salad1.jpg" className="rounded-b-3xl" />
+                            <img src="" alt="" srcset="/aboutimgs/salad1.jpg" className="rounded-b-3xl hover:scale-110" />
 
                         </div>
                         <div className=" lg:h-[180px] w-[200px] lg:w-[120px]">
-                            <img src="" alt="" srcset="/aboutimgs/salad3.jpg" className="rounded-t-3xl" />
+                            <img src="" alt="" srcset="/aboutimgs/salad3.jpg" className="rounded-t-3xl hover:scale-110" />
 
                         </div>
                         <div className="lg:mt-6 lg:h-[90px] w-[200px] lg:w-[120px]">
-                            <img src="" alt="" srcset="/aboutimgs/salad4.jpg" className=" rounded-b-3xl" />
+                            <img src="" alt="" srcset="/aboutimgs/salad4.jpg" className=" rounded-b-3xl hover:scale-110" />
 
                         </div>
 
@@ -46,14 +47,14 @@ function About(){
 
                 </div>
                  <div className="lg:h-[85vh] w-[70%] lg:w-[25%]">
-                    <img src="" alt="" srcset="/aboutimgs/chef.jpg" className="rounded-full lg:rounded-bl-full" />
+                    <img src="" alt="" srcset="/aboutimgs/chef.jpg" className="rounded-full lg:rounded-bl-full hover:scale-105 shadow-2xl" />
 
             </div>
                  
             </div>
            
             <div className="lg:h-[40vh] my-10 w-full bg-gray-200/60 flex flex-col lg:flex-row items-center justify-center">
-                <div className="lg:h-[35vh] lg:w-[20%] flex flex-col items-center ">
+                <div className="lg:h-[35vh] lg:w-[20%] flex flex-col items-center border-r-2 text-gray-300">
                     <div className="size-[150px] bg-green-900 rounded-full flex items-center justify-center">
                         <h1 className="text-white text-5xl">15+</h1>
                        
@@ -69,7 +70,7 @@ function About(){
 
 </h1>
                 </div>
-                  <div className="lg:h-[35vh] lg:w-[20%] flex flex-col items-center ">
+                  <div className="lg:h-[35vh] lg:w-[20%] flex flex-col items-center border-l-2 text-gray-300">
                     <div className="size-[150px] bg-green-900 rounded-full flex items-center justify-center">
                         <h1 className="text-white text-5xl">4+</h1>
                        
